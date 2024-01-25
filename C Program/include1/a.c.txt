@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include "variables.c"
+// making the variable, an extern variable
+extern float extern_var;
+int main()
+{
+    // print the variable from another file
+    printf("%f", extern_var);
+    return 0;
+}
