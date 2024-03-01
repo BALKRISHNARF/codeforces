@@ -1,4 +1,4 @@
-Panoramix's Prediction
+/*Panoramix's Prediction
 time limit per test2 seconds
 memory limit per test256 megabytes
 inputstandard input
@@ -34,7 +34,7 @@ inputCopy
 7 9
 outputCopy
 NO
-
+*/
 
 #include <stdio.h>
  

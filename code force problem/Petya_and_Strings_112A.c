@@ -27,7 +27,7 @@ abcdefg
 AbCdEfF
 outputCopy
 1*/
-#innclude<stdio.h>
+#include<stdio.h>
 #include<string.h>
 int main(){
     char a[100],b[100];
