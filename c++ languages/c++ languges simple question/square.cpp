@@ -1,5 +1,5 @@
 /*cout << "value of the a :" << a;*/
-#include<isostream>
+#include<iostream>
 using namespace std;
 int main() {
     int x;
