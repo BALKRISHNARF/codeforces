@@ -42,6 +42,7 @@ In the third sample, all the persons have to bend, except the last one. The requ
 
 #include<bits/stdc++.h>
 using namespace std;
+
 int main(){
     int n,h,i,x,a=0;
     cin>>n>>h;
