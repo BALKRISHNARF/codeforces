@@ -1,7 +1,7 @@
 #include<iostream>
 #include<climits>
 using namespace std;
-int mian(){
+int main(){
     int n;
     cin>>n;
     int arr[n];
@@ -10,9 +10,8 @@ int mian(){
     }
     int maxi=INT_MIN;
     for(int i=0;i<n;i++){
-        if(max<arr[i]) max=arr[i];
+        if(maxi<arr[i]) maxi=arr[i];
     }
-    cout<<max;
+    cout<<maxi;
+   }
 
-
-}
