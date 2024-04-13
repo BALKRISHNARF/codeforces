@@ -1,5 +1,3 @@
 #include<iostream>
 #include<vector>
-int mian(){
-    
-}
+using namespace std;

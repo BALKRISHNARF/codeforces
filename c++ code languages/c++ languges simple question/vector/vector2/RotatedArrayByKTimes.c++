@@ -3,8 +3,8 @@
 using namespace std;
 
 void reversePartArray(int i,int j,vector<int> &a){
-    int c=1;
-    int b = 3;
+    int c=i;
+    int b = j;
     while(c<=b){
         int temp = a[c];
         a[c++]=a[b];
@@ -23,9 +23,13 @@ void reversePartArray(int i,int j,vector<int> &a){
         v.push_back(ele);
     }
     
-    int a,b;
-    cin>>a>>b;
-    reversePartArray(a,b,v);
+    int a;
+    cin>>a;
+    int b = v.size();
+    a = a>b ? a%b : a;
+    reversePartArray(0,b-a-1,v);
+    reversePartArray(b-a,b-1,v);
+    reversePartArray(0,b,v);
     for (int ele : v)
       cout<<ele<<" ";
 }
